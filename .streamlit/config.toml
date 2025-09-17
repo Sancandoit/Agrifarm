@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2e7d32"          # Green (matches PPT highlight)
+backgroundColor = "#ffffff"       # White background
+secondaryBackgroundColor = "#f0f4f0"   # Soft light green-grey panels
+textColor = "#000000"             # Black text for clarity
+font = "sans serif"
