@@ -7,18 +7,17 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 st.markdown("""
-    <style>
-        /* Make metric cards more stylish */
-        [data-testid="stMetricValue"] {
-            color: #2e7d32;  /* green */
-            font-weight: bold;
-        }
-        [data-testid="stMetricLabel"] {
-            font-size: 14px;
-            font-weight: 500;
-        }
-    </style>
+    <div style="background-color: rgba(255, 255, 255, 0.85); padding: 20px; border-radius: 10px;">
+        <h1 style="color:#2e7d32;">🌱 AgriFarm - E-Business Strategy Dashboard</h1>
+        <p>Interactive dashboard for Makro PRO / CP AXTRA case study</p>
+        <ul>
+            <li>📊 KPI Dashboard</li>
+            <li>👩‍💼 Visionary Leaders</li>
+            <li>👥 Team Group 6</li>
+        </ul>
+    </div>
 """, unsafe_allow_html=True)
 
 # Main landing page
