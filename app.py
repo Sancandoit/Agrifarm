@@ -7,6 +7,19 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.markdown("""
+    <style>
+        /* Make metric cards more stylish */
+        [data-testid="stMetricValue"] {
+            color: #2e7d32;  /* green */
+            font-weight: bold;
+        }
+        [data-testid="stMetricLabel"] {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # Main landing page
 st.title("🌱 AgriFarm - E-Business Strategy Dashboard")
