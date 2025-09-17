@@ -20,8 +20,8 @@ col3.metric("Digital Adoption", f"{adoption_rate}%")
 col4.metric("Suppliers", f"{suppliers:,}")
 
 # Simulated GMV (simple model)
-avg_order_value = 120  # assumption in USD
-gmv = daily_orders * avg_order_value * 365
+avg_order_value = 120  # Assumption in USD
+gmv = daily_orders * avg_order_value * 365 * (adoption_rate / 100)
 st.subheader("📈 Projected Annual GMV")
 st.success(f"USD {gmv:,.0f}")
 
