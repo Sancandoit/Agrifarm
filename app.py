@@ -32,7 +32,7 @@ It showcases the CP AXTRA / Makro PRO case study, focusing on **go-to-market str
 
 ---
 
-## 📊 Navigate through the pages on the sidebar to explore:  
+## Navigate through the pages on the sidebar to explore:  
 - **KPI Dashboard**: Simulate daily orders, SKU onboarding, adoption %, and supplier growth.  
 - **Projected GMV Calculator**: Estimate annual gross merchandise value based on adoption scenarios.  
 - **Visionary Leaders Page**: Profiles of Noppamas Sivakriskul & Simon Wintels, the McKinsey leaders who shaped the transformation.  
